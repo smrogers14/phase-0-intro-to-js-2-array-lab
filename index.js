@@ -22,8 +22,11 @@ function prependCat() {
 function removeLastCat() {
     let copyOfCats = cats.slice(0, cats.length - 1)
     return copyOfCats
-}
+    }
+    
+
 function removeFirstCat() {
     let copyOfCats = cats.slice(1)
     return copyOfCats
 }
+
