@@ -1,4 +1,5 @@
-const cats = ["Milo", "Otis", "Garfield"] 
+const cats = ["Milo", "Otis", "Garfield"]
+ 
 function destructivelyAppendCat() {
     cats.push('Ralph')
 }
